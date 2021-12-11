@@ -1,0 +1,20 @@
+{
+    "shop_info": {
+        "name": "kazuki_pilot",
+        "location": "熊本県玉名市"
+    },
+    "items": [
+    {
+        "name": "お米",
+        "description": "無農薬で育てています",
+        "price": 2000,
+        "tax": 1.1
+    },
+    {
+        "name": "大根",
+        "description": "おでんに使えます",
+        "price": 400,
+        "tax": 1.1
+    }
+    ]
+}
