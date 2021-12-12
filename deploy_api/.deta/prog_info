@@ -1,0 +1,1 @@
+{"id":"e20654ac-6aeb-4406-a466-87f35086b0c6","space":14330,"runtime":"python3.9","name":"deploy_api","path":"ylfmqg","project":"c07ck6w5","account":"144798365827","region":"ap-southeast-1","deps":["fastapi"],"envs":null,"public":true,"log_level":"debug","cron":""}

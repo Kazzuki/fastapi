@@ -35,6 +35,7 @@ class ShopInfo(BaseModel):
     location: str
 
 class Item(BaseModel):
+    # pydanticのvalidation機能をFastAPIが恩恵を得ている
     name: str = Field(min_length=4, max_length=12)
     description: Optional[str] = None
     price: int
