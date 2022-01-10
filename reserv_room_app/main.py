@@ -11,7 +11,7 @@ class Booking(BaseModel):
     end_datetime: datetime.datetime
 
 class User(BaseModel):
-    uer_id: int
+    user_id: int
     user_name: str = Field(max_length=12)
 
 class Room(BaseModel):
