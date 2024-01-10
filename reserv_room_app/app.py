@@ -60,7 +60,9 @@ elif page == "bookings":
     st.title('APIテスト画面（予約）')
 
     with st.form(key='user'):
+        booking_id: int = random.randint(0, 10)
         user_id: int = random.randint(0, 10)
+        room_id: int = random.randint(0, 10)
         user_name: str = st.text_input('ユーザ名', max_chars=12)
         data = {
             "user_id" : user_id,
