@@ -4,11 +4,12 @@ import requests
 import json
 
 page = st.sidebar.selectbox(
-    "which page do you want to see users,rooms and bookings",
+    "ページを選択してください",
     ("users", "rooms", "bookings")
 )
 
 if page == "users":
+    st.camera_input("一二三,茄子!")
     st.title('APIテスト画面（ユーザ）')
     with st.form(key='user'):
         user_id: int = random.randint(0, 10)

@@ -5,13 +5,13 @@
     },
     "items": [
     {
-        "name": "お米",
+        "name": "お米お米",
         "description": "無農薬で育てています",
         "price": 2000,
         "tax": 1.1
     },
     {
-        "name": "大根",
+        "name": "大根お米",
         "description": "おでんに使えます",
         "price": 400,
         "tax": 1.1

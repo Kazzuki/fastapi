@@ -5,7 +5,7 @@ from pydantic.errors import DateError
 
 app = FastAPI()
 
-# @はデコレータと言われる
+# デコレータ
 @app.get("/hello")
 async def index():
     return {"message" : "Hello World"}
@@ -47,10 +47,9 @@ class Data(BaseModel):
 
 @app.post("/item/")
 async def create_item(item: Item):
-    # return item
     return {"message": f"{item.name}は、税込価格{int(item.price * item.tax)}円です"}
-# 引数が、リクエストボディになって、返り値がレスポンスボディになるのか？
 
+# sample.jsonのような多少複雑なjson形式をpostする
 @app.post("/")
 async def index(date: Data):
     return {"data": date}
